@@ -1,0 +1,27 @@
+.container{
+	display: flex;
+	margin: 7%;
+	border: outset;
+	background-color: grey;
+}
+.collapse{
+	padding: 2%;
+}
+.btncls{
+	width: 20vw;
+}
+@media screen and (max-width: 320px) {
+ .btncls{
+ 	width: 50%;
+ 	font-size: 1.2em;
+ 
+ }
+ p{
+ 	font-size: 1.5em;
+ }
+
+@media screen and (max-width: 720px){
+	.btncls{
+		background: black;
+	}
+}
